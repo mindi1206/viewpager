@@ -1,7 +1,8 @@
 # ViewPager
 
-카카오톡의 스와이프 메뉴\
-gradle 버전, sdk버전을 꼭 확인하세요
+* 카카오톡의 스와이프 메뉴 하단.ver
+* viewpager, tablayout
+* gradle 버전, sdk버전을 꼭 확인하세요
 
 
 
