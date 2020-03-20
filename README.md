@@ -5,15 +5,15 @@
 * gradle 의 library dependency, sdk버전을 꼭 확인하세요
 
 * .java 파일의 import에 따라 레이아웃 태그가 달라져요
-```
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.Fragment;
-import androidx.fragment.app.FragmentManager;
-import androidx.fragment.app.FragmentStatePagerAdapter;
-import androidx.viewpager.widget.ViewPager;
+```java
+    import androidx.appcompat.app.AppCompatActivity;
+    import androidx.fragment.app.Fragment;
+    import androidx.fragment.app.FragmentManager;
+    import androidx.fragment.app.FragmentStatePagerAdapter;
+    import androidx.viewpager.widget.ViewPager;
 ```
 일 경우 레이아웃 파일은
-```
+```xml
 <androidx.viewpager.widget.ViewPager
     android:id="@+id/pager"
     android:layout_width="match_parent"
@@ -32,18 +32,18 @@ import androidx.viewpager.widget.ViewPager;
     
 ```
 
-```
-import android.support.design.widget.TabLayout;
-import android.support.v4.app.Fragment;
-import android.support.v4.app.FragmentManager;
-import android.support.v4.app.FragmentStatePagerAdapter;
-import android.support.v4.app.*;
-import android.support.v4.view.ViewPager;
-import android.support.v7.app.AppCompatActivity;
+```java
+    import android.support.design.widget.TabLayout;
+    import android.support.v4.app.Fragment;
+    import android.support.v4.app.FragmentManager;
+    import android.support.v4.app.FragmentStatePagerAdapter;
+    import android.support.v4.app.*;
+    import android.support.v4.view.ViewPager;
+    import android.support.v7.app.AppCompatActivity;
 ```
 일 경우 레이아웃 파일은
 
-```
+```xml
  <android.support.v4.view.ViewPager
         android:id="@+id/pager"
         android:layout_width="match_parent"
